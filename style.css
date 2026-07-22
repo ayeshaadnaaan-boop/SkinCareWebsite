@@ -184,3 +184,46 @@ button{
 button:hover{
     background:#C2185B;
 }
+/* Hero Banner */
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+    color:white;
+}
+
+.hero-content h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.hero-content button{
+    background:#ff4fa3;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.hero-content button:hover{
+    background:#ff1f8a;
+}
