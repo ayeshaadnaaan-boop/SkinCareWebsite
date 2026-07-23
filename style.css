@@ -422,3 +422,18 @@ section h2{
     font-size:13px;
     font-weight:bold;
 }
+.social-links{
+    margin:20px 0;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    color:#ffe5f2;
+}
