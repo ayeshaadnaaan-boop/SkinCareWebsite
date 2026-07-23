@@ -407,3 +407,18 @@ section h2{
     background:#ff4fa3;
     color:white;
 }
+.card{
+    position:relative;
+}
+
+.discount{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#ff197f;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+}
