@@ -1,93 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>GlowSkin | Skin Care Website</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
+<!-- ================= NAVBAR ================= -->
 
-    <nav>
-        <h2>GlowSkin</h2>
+<nav>
 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Tips</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="logo">GlowSkin</div>
 
-    <!-- Hero Section -->
+    <ul>
 
-    <section class="hero">
+        <li><a href="#home">Home</a></li>
 
-        <img src="images/banner.jpg.png" alt="Skincare Banner">
+        <li><a href="#products">Products</a></li>
 
-        <div class="hero-content">
-            <h1>Glow Naturally</h1>
-            <p>Healthy Skin Starts Here</p>
-            <button>Shop Now</button>
-        </div>
+        <li><a href="#categories">Categories</a></li>
 
-    </section>
+        <li><a href="#tips">Tips</a></li>
 
-    <!-- Welcome Section -->
+        <li><a href="#about">About</a></li>
 
-    <section>
+        <li><a href="#contact">Contact</a></li>
 
-        <h1>Healthy Skin Starts Here</h1>
+    </ul>
 
-        <p>
-            Discover premium skin care products for naturally glowing skin.
-        </p>
+</nav>
 
-        <button>Shop Now</button>
+<!-- ================= HERO ================= -->
 
-    </section>
+<section id="home" class="hero">
 
-    <!-- Featured Products -->
+    <img src="images/banner.jpg.png" alt="Banner">
 
-    <section class="products">
+    <div class="hero-content">
 
-        <h2>Featured Products</h2>
+        <h1>Glow Naturally</h1>
 
-        <div class="product-container">
+        <p>Healthy Skin Starts Here</p>
 
-            <div class="card">
-                <img src="images/FaceWash.jpg.png" alt="Face Wash">
-                <h3>Face Wash</h3>
-                <p>$18</p>
-                <button>Buy Now</button>
-            </div>
+        <a href="#products"><button>Shop Now</button></a>
 
-            <div class="card">
-                <img src="images/Serum.jpg.png" alt="Serum">
-                <h3>Vitamin C Serum</h3>
-                <p>$35</p>
-                <button>Buy Now</button>
-            </div>
+    </div>
 
-            <div class="card">
-                <img src="images/Sunscreen.jpg.png" alt="Sunscreen">
-                <h3>Sunscreen</h3>
-                <p>$25</p>
-                <button>Buy Now</button>
-            </div>
+</section>
 
-        </div>
+<!-- ================= PRODUCTS ================= -->
 
-    </section>
+<section id="products" class="products">
+
+<h2>Featured Products</h2>
+
+<div class="product-container">
+
+<div class="card">
+
+<img src="images/FaceWash.jpg.png" alt="Face Wash">
+
+<h3>Face Wash</h3>
+
+<p>Gentle cleanser for fresh and healthy skin.</p>
+
+<h4>$18</h4>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/Serum.jpg.png" alt="Serum">
+
+<h3>Vitamin C Serum</h3>
+
+<p>Brightens skin and reduces dark spots.</p>
+
+<h4>$35</h4>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/Sunscreen.jpg.png" alt="Sunscreen">
+
+<h3>Sunscreen SPF 50</h3>
+
+<p>Protects your skin from harmful UV rays.</p>
+
+<h4>$25</h4>
+
+<button>Buy Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section id="categories" class="categories">
+
+<h2>Categories</h2>
+
+<div class="category-box">
+
+<div class="cat">🌿 Cleanser</div>
+
+<div class="cat">💧 Serum</div>
+
+<div class="cat">☀️ Sunscreen</div>
+
+<div class="cat">🧴 Moisturizer</div>
+
+</div>
+
+</section>
+
+<!-- ================= TIPS ================= -->
+
+<section id="tips" class="tips">
+
+<h2>Skin Care Tips</h2>
+
+<div class="tips-box">
+
+<div class="tip">
+
+<h3>💦 Drink Water</h3>
+
+<p>Stay hydrated for naturally glowing skin.</p>
+
+</div>
+
+<div class="tip">
+
+<h3>☀️ Wear Sunscreen</h3>
+
+<p>Always protect your skin before going outside.</p>
+
+</div>
+
+<div class="tip">
+
+<h3>🧼 Cleanse Daily</h3>
+
+<p>Wash your face twice a day.</p>
+
+</div>
+
+<div class="tip">
+
+<h3>🌸 Moisturize</h3>
+
+<p>Keep your skin soft and healthy.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+<h2>About GlowSkin</h2>
+
+<p>
+
+GlowSkin is a premium skincare website that offers high-quality products designed to nourish, protect, and brighten your skin. Our mission is to help everyone achieve naturally healthy and glowing skin with trusted skincare solutions.
+
+</p>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>GlowSkin</h3>
+
+<p>Email: support@glowskin.com</p>
+
+<p>Phone: +92 300 1234567</p>
+
+<p>© 2026 GlowSkin. All Rights Reserved.</p>
+
+</footer>
 
 </body>
-
 </html>
